@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nano Degree Apps!"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPOFY STREAMER"
+        android:id="@+id/ButtonStreamer"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="43dp"
+        android:layout_alignEnd="@+id/textView"
+        android:backgroundTint="#fff08c35"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORES APP"
+        android:id="@+id/ButtonScores"
+        android:backgroundTint="#fff08c35"
+        android:layout_below="@+id/ButtonStreamer"
+        android:layout_alignStart="@+id/ButtonStreamer"
+        android:layout_alignEnd="@+id/ButtonStreamer" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LYBRARY APP"
+        android:id="@+id/ButtonLybrary"
+        android:backgroundTint="#fff08c35"
+        android:layout_below="@+id/ButtonScores"
+        android:layout_alignEnd="@+id/ButtonBiger"
+        android:layout_alignStart="@+id/ButtonScores" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGER"
+        android:id="@+id/ButtonBiger"
+        android:backgroundTint="#fff08c35"
+        android:layout_below="@+id/ButtonLybrary"
+        android:layout_alignLeft="@+id/ButtonScores"
+        android:layout_alignStart="@+id/ButtonScores"
+        android:layout_alignRight="@+id/ButtonScores"
+        android:layout_alignEnd="@+id/ButtonScores" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE MY OWN APP"
+        android:id="@+id/ButtonCapstone"
+        android:backgroundTint="#fff04c32"
+        android:textColor="#fffbf0ff"
+        android:layout_below="@+id/ButtonReader"
+        android:layout_alignLeft="@+id/ButtonReader"
+        android:layout_alignStart="@+id/ButtonReader"
+        android:layout_alignRight="@+id/ButtonReader"
+        android:layout_alignEnd="@+id/ButtonReader" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XYZ READER"
+        android:id="@+id/ButtonReader"
+        android:backgroundTint="#fff08c35"
+        android:layout_below="@+id/ButtonBiger"
+        android:layout_alignEnd="@+id/ButtonBiger"
+        android:layout_alignStart="@+id/ButtonBiger" />
+</RelativeLayout>
